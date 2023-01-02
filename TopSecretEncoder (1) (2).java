@@ -1,31 +1,3 @@
-/*
-Parth Patel
-Ms. Karasinska
-January 21st, 2022
-Top Secret Encoder
-Program Description:
-This program will encrypt or decrypt any word that the user inputs by asking for a word and a key.
-Data Dictionary: 
-nums - char array with chars '1','2','0', and it is used for comparing to strings
-original - char array with the alphabet in order
-a - User input for user's decision in the main menu. I used a string to prevent input lengths greater than 1 and also to use a.charAt to compare validity
-userIn - What the user inputs as their unencrypted word or encrpyted word
-key - What the user inputs for the encrypting or decrypting key
-newArr - char array name for new shifted array
-b - string variable; is the option that they entered in the main menu
-input - string variable; is the encrypting word / decrypting word / encrypting key / decrypting key in the method menuValid
-count - counter to see if the user's input for encrypting/decrypting/encrypting key/decrypting key is only letters
-z - Is the encrypting or decrypting key in the method shift
-s - int variable to figure out how much to shift the original array by
-shiftedOriginal - shifted Array in the method shiftedArray
-i - used in for loops to count towards the sentinel value
-j - used in for loops to count towards the sentinel value
-shiftedArray - newArr in the method crptedName
-end - The last letter in the alphabet that will be moved to the front of the array 
-temp - temporary variable that changes and stores letters of the encrypted or decrypted word
-userEncrypted - encrypted or decrypted word 
-*/
-
 class TopSecretEncoder
 {
   //Main method that holds the main menu and some variables that will be needed in other methods. This method allows for the code to be repeated until the user enters 0.
